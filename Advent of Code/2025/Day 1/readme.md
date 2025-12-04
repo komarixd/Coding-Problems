@@ -1,4 +1,4 @@
-** Problem 1 **
+**Problem 1**
 
 We start at number 50.
 
@@ -21,7 +21,7 @@ If input is R{x}, curr will increase by x. curr = (curr + x) % 100
 
 Then count how many 0 occurs.
 
-** Problem 2 **
+**Problem 2**
 
 The statement changed to "how many times it pass 0"
 

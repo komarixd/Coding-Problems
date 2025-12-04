@@ -1,4 +1,4 @@
-** Problem 1 **
+**Problem 1**
 
 Given a set of range L-R.
 
@@ -15,7 +15,7 @@ for i in range(L, R):
 		result += i
 ```
 
-** Problem 2 **
+**Problem 2**
 
 The statement change to find the value that is made by sequences of number occur twice or more.
 

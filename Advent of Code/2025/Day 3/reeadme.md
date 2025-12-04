@@ -1,4 +1,4 @@
-** Porblem 1 **
+**Porblem 1**
 
 Given an integer. Find the largest number that can be form by picking exactly 2 digit.
 
@@ -22,7 +22,7 @@ for i in range 3 -> 1:
 	suffix = max( suffix, input[i] )
 ```
 
-** Problem 2 **
+**Problem 2**
 
 Change from picking 2 digits to 12 digits.
 
