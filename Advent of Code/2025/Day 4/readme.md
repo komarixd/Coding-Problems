@@ -19,7 +19,7 @@ We will update the new_map for every position we can remove then try to remove '
 ```
 While true:
 	For each i, j of map:
-		if number of '@' < 4:
+		if number of '@' at map[i][j] < 4:
 			new_map[i][j] = '.'
 
 	if map == new_map:
