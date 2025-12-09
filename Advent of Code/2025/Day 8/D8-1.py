@@ -23,6 +23,8 @@ for i in range(n):
 
 arr.sort()
 
+# DSU
+
 parent = [i for i in range(n)]
 size = [1]*n
 

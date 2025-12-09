@@ -19,6 +19,8 @@ hx = 0
 ly = 100000000
 hy = 0
 
+# minimize coordinates and save to new_coords
+
 num_list = []
 for i in coordinates:
     x,y = i
@@ -42,6 +44,8 @@ grid = [[2 for _ in range(sz)] for _ in range(sz)]
 
 px, py = new_coords[0]
 
+# Draw line around the area
+
 for i in range(1,n):
     cx, cy = new_coords[i]
     if cx == px:
@@ -52,6 +56,8 @@ for i in range(1,n):
             grid[cy][j] = 1
     px = cx
     py = cy
+
+# BFS to fill outside area
 
 movex = [0,0,1,-1]
 movey = [1,-1,0,0]
@@ -80,7 +86,7 @@ def check(a,b):
                 return False
     return True
 
-print(1)
+# Check all pairs.
 
 for i in range(len(new_coords)):
     for j in range(i+1, len(new_coords)):
